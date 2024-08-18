@@ -15,7 +15,7 @@
                 <div class="navbar__logo">
                     <img src="./assets/img/amazon-square-black-shop-button-19635.svg" alt="">
                 </div>
-                <div onclick="closeModel()" class="navbar__location">
+                <div onclick="showModel()" class="navbar__location">
                     <p class="navbar__location_title">Deliver to</p>
                     <div class="navbar__location_country">
                         <i class="fa-solid fa-location-dot"></i>
@@ -25,7 +25,7 @@
                 <div class="navbar__model">
                     <div class="model__navbar">
                         <p class="model__navbar_title">Choose your location</p>
-                        <i class="fa-solid fa-xmark"></i>
+                        <i onclick="closeModel()" class="fa-solid fa-xmark"></i>
                     </div>
                     <div class="model__footer">
                         <p class="model__footer_title">Delivery options and delivery speeds may vary for differen locations
@@ -131,6 +131,7 @@
     </header>
     <main></main>
 
+    
     <script src="./js/app.js"></script>
 </body>
 </html>

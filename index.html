@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amazon.com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/img/amazon (1).svg">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
                 <div class="navbar__logo">
                     <img src="./assets/img/amazon-square-black-shop-button-19635.svg" alt="">
                 </div>
-                <div class="navbar__location">
+                <div onclick="closeModel()" class="navbar__location">
                     <p class="navbar__location_title">Deliver to</p>
                     <div class="navbar__location_country">
                         <i class="fa-solid fa-location-dot"></i>
@@ -23,8 +24,30 @@
                 </div>
                 <div class="navbar__model">
                     <div class="model__navbar">
-                        <p>Choose your location</p>
+                        <p class="model__navbar_title">Choose your location</p>
                         <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="model__footer">
+                        <p class="model__footer_title">Delivery options and delivery speeds may vary for differen locations
+                        </p>
+                        <button class="model__footer_btn">Sign in to see your address</button>
+                        <hr>
+                        <p class="model__footer_subtitle">or enter a US zip code</p>
+                        <hr>
+                        <div class="model__footer_password">
+                            <input type="password">
+                            <button class="model">Apply</button>
+                        </div>
+                        <hr>
+                        <p class="model__footer_or">or</p>
+                        <hr>
+                        <div class="model__footer_country">
+                            <p class="title">Uzbekistan</p>
+                            <i class="fa-solid fa-caret-down" style="color: #555555;"></i>
+                        </div>
+                        <div class="model__footer_done">
+                            <button>Done</button>
+                        </div>
                     </div>
                 </div>
                 <div class="navbar__search">
@@ -107,6 +130,8 @@
         </section>
     </header>
     <main></main>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
 

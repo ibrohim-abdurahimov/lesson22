@@ -131,7 +131,102 @@
         
     }
     .navbar__model{
-        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 340px;
+        min-height: 300px;
+        display: block;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .model__navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            padding: 20px;
+            background-color: #F0F2F2;
+            border-radius: 8px 8px 0 0;
+            &_title{
+                font-weight: 700;
+            }
+            
+        }
+        .model__footer{
+            padding: 20px;
+            border-radius: 0 0 8px 8px;
+            &_title{
+                font-size: 12px;
+                color: #a7acb2;
+            }
+            &_btn{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+                border-radius: 50px;
+                background-color: #FFD814;
+                color: #524812;
+                border: none;
+                outline: none;
+                text-align: center;
+                padding: 8px;
+            }
+            &_subtitle{
+                text-align: center;
+                font-size: 12px;
+                color: #9B9D9D;
+                
+            }
+            &_password{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                display: flex;
+                justify-content: space-between;
+                input{
+                    width: 70%;
+                }
+                .model{
+                    width: 28%;
+                    padding: 5px 20px;
+                    border-radius: 50px;
+                    border: 1px solid #9B9D9D;
+                    color: #9B9D9D;
+                    font-weight: 600;
+                    background-color: transparent;
+                }
+            }
+            &_or{
+                text-align: center;
+                font-size: 12px;
+                color: #9B9D9D;
+            }
+            &_country{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                background-color: #F0F2F2;
+                padding: 8px 10px;
+                border-radius: 50px;
+                border: 1px solid #D5D9D9;
+                .title{
+                    font-size: 14px;
+                    color: #868888b6;
+                }
+            }
+            &_done{
+                margin-top: 10px;
+                display: flex;
+                justify-content: end;
+                button{
+                    padding: 5px 10px;
+                    background-color: #FFD814;
+                    border-radius: 50px;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
     }
 }
 .header__footer{

@@ -1,0 +1,118 @@
+.header{
+    background-color: #131921;
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 16px;
+        gap: 30px;
+        height: 40px;
+        
+        &__logo{
+            width: 100px;
+            
+        }
+
+        &__location{
+            &_title{
+                padding-left: 15px;
+                color: #a7acb2;
+                font-size: 8px;
+                p{
+                    font-size: 15px;
+                }
+            }
+            &_country{
+                display: flex;
+                gap: 5px;
+                align-items: end;
+                color: #fff;
+            }
+            &_name{
+                font-size: 10px;
+                
+            }
+        }
+        &__search{
+            max-width: 1000px;
+            width: 100%;
+            display: flex;
+            &_collection{
+                background-color: #E6E6E6;
+                padding: 10px 5px;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            &_title{
+                font-size: 8px;
+                color: #a7acb2;
+                font-weight: 700;
+            }
+            &_input{
+                width: 100%;
+                padding: 3px;
+                background-color: #fff;
+                input{
+                    border: none;
+                    outline: none;
+                    font-size: 12px;
+                    font-weight: 700;
+                    width: 100%;
+                }
+                
+            }
+            &_icon{
+                padding: 5px 8px;
+                background-color: #FEBD69;
+            }
+           
+        }
+        &__language{
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            &_flag{
+                width: 20px;
+            }
+            &_name{
+                color: #fff;
+                font-size: 10px;
+            }
+        }
+        &__sign{
+            color: #a7acb2;
+            width: 130px;
+            font-size: 8px;
+            &_title{
+                display: flex;
+                gap: 3px;
+                color: #fff;
+                font-size: 10px;
+            }
+        }
+        &__orders{
+            color: #fff;
+            font-size: 10px;
+            max-width: 65px;
+            width: 100%;
+        }
+        &__bag{
+            width: 40px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff ;
+        }
+        
+    }
+    .navbar__model{
+        display: none;
+    }
+}
+img{
+    width: 100%;
+}

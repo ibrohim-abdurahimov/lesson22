@@ -143,7 +143,7 @@
         transform: translate(-50%, -50%);
         width: 340px;
         min-height: 300px;
-        display: block;
+        display: none;
         border-radius: 8px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         .model__navbar{
@@ -262,6 +262,7 @@
 
 .menyu{
     position: fixed;
+    display: none;
     z-index: 101;
     top: 0;
     left: 0;
@@ -269,8 +270,9 @@
     overflow: scroll;
     max-width: 300px;
     width: 100%;
+    height: 100%;
     background-color: #fff;
-    height: auto;
+    
     .navbar{
         display: flex;
         justify-content: left;

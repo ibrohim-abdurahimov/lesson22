@@ -68,3 +68,14 @@
     }
     
 }
+@media (max-width:450px) {
+    .product{
+        .part__wrapper{
+            grid-template-columns: 1fr;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+}

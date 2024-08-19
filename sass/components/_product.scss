@@ -42,3 +42,29 @@
         color: #1B1D1D;
     }
 }
+
+@media (max-width:1086) {
+    .product{
+        top: 45%;
+        height: 300px;
+    }
+    
+}
+@media (max-width:1000px) {
+    .product{
+        top: 40%;
+        
+        &__wrapper{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+}
+@media (max-width:550px) {
+    .product{
+        &__wrapper{
+            grid-template-columns: 1fr;
+        }
+    }
+    
+}

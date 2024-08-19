@@ -6,3 +6,9 @@
         object-fit: cover;
     }
 }
+@media (max-width:580px) {
+    img{
+        object-fit: none;
+    }
+    
+}

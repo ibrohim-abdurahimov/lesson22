@@ -1,0 +1,44 @@
+.product{
+    z-index: 2;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    margin-bottom: 15px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+        background-color: transparent;
+    }
+    &__card{
+        background-color: #fff;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        padding: 20px;
+    }
+    &__title{
+        font-size: 20px;
+        font-weight: 600;
+        color: #0F1111;
+        margin-bottom: 10px;
+    }
+    &__desc{
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #1B1D1D;
+
+    }
+    
+    .part__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        row-gap: 20px;      
+    }
+    .part__title{
+        font-size: 12px;
+        font-weight: 500;
+        color: #1B1D1D;
+    }
+}

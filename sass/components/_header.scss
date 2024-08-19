@@ -373,6 +373,7 @@
 @media (max-width:520px) {
     .header{
         .navbar__search{
+            justify-content: end;
             &_collection{
                 display: none;
             }
